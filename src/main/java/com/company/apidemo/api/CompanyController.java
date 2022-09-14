@@ -87,6 +87,7 @@ public class CompanyController {
             return new ResponseEntity<>(HttpStatus.INTERNAL_SERVER_ERROR);
         }
     }
+
     @DeleteMapping("/companies")
     public ResponseEntity<HttpStatus> deleteAllCompanys() {
         try {
