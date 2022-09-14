@@ -1,1 +1,1 @@
-web: java -jar target/api-demo-0.0.1-SNAPSHOT.jar
+web: java -jar build/libs/api-demo-0.0.1-SNAPSHOT.jar
